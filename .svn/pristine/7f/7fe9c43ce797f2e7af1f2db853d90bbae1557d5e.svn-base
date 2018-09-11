@@ -1,0 +1,346 @@
+_0.0.t1-1 add-dir false false false /DoubanAPI
+
+_2.0.t1-1 add-file true false false /DoubanAPI/Detailes.aspx
+
+_2.0.t1-1 modify-file true false false /DoubanAPI/Detailes.aspx
+
+_5.0.t1-1 add-file true false false /DoubanAPI/Detailes.aspx.cs
+
+_5.0.t1-1 modify-file true false false /DoubanAPI/Detailes.aspx.cs
+
+_7.0.t1-1 add-file true false false /DoubanAPI/Detailes.aspx.designer.cs
+
+_7.0.t1-1 modify-file true false false /DoubanAPI/Detailes.aspx.designer.cs
+
+_9.0.t1-1 add-file true false false /DoubanAPI/DoubanAPI.csproj
+
+_9.0.t1-1 modify-file true false false /DoubanAPI/DoubanAPI.csproj
+
+_b.0.t1-1 add-file true false false /DoubanAPI/DoubanAPI.csproj.user
+
+_b.0.t1-1 modify-file true false false /DoubanAPI/DoubanAPI.csproj.user
+
+_d.0.t1-1 add-file true false false /DoubanAPI/HttpHelper.cs
+
+_d.0.t1-1 modify-file true false false /DoubanAPI/HttpHelper.cs
+
+_f.0.t1-1 add-file true false false /DoubanAPI/Index.aspx
+
+_f.0.t1-1 modify-file true false false /DoubanAPI/Index.aspx
+
+_h.0.t1-1 add-file true false false /DoubanAPI/Index.aspx.cs
+
+_h.0.t1-1 modify-file true false false /DoubanAPI/Index.aspx.cs
+
+_j.0.t1-1 add-file true false false /DoubanAPI/Index.aspx.designer.cs
+
+_j.0.t1-1 modify-file true false false /DoubanAPI/Index.aspx.designer.cs
+
+_l.0.t1-1 add-dir false false false /DoubanAPI/Properties
+
+_m.0.t1-1 add-file true false false /DoubanAPI/Properties/AssemblyInfo.cs
+
+_m.0.t1-1 modify-file true false false /DoubanAPI/Properties/AssemblyInfo.cs
+
+_p.0.t1-1 add-file true false false /DoubanAPI/Web.Debug.config
+
+_p.0.t1-1 modify-file true false false /DoubanAPI/Web.Debug.config
+
+_r.0.t1-1 add-file true false false /DoubanAPI/Web.Release.config
+
+_r.0.t1-1 modify-file true false false /DoubanAPI/Web.Release.config
+
+_t.0.t1-1 add-file true false false /DoubanAPI/Web.config
+
+_t.0.t1-1 modify-file true false false /DoubanAPI/Web.config
+
+_v.0.t1-1 add-dir false false false /DoubanAPI/bin
+
+_w.0.t1-1 add-file true false false /DoubanAPI/bin/DoubanAPI.dll
+
+_w.0.t1-1 modify-file true false false /DoubanAPI/bin/DoubanAPI.dll
+
+_w.0.t1-1 modify-file false true false /DoubanAPI/bin/DoubanAPI.dll
+
+_z.0.t1-1 add-file true false false /DoubanAPI/bin/DoubanAPI.dll.config
+
+_z.0.t1-1 modify-file true false false /DoubanAPI/bin/DoubanAPI.dll.config
+
+_11.0.t1-1 add-file true false false /DoubanAPI/bin/DoubanAPI.pdb
+
+_11.0.t1-1 modify-file true false false /DoubanAPI/bin/DoubanAPI.pdb
+
+_11.0.t1-1 modify-file false true false /DoubanAPI/bin/DoubanAPI.pdb
+
+_13.0.t1-1 add-file true false false /DoubanAPI/bin/Newtonsoft.Json.dll
+
+_13.0.t1-1 modify-file true false false /DoubanAPI/bin/Newtonsoft.Json.dll
+
+_13.0.t1-1 modify-file false true false /DoubanAPI/bin/Newtonsoft.Json.dll
+
+_15.0.t1-1 add-file true false false /DoubanAPI/bin/Newtonsoft.Json.xml
+
+_15.0.t1-1 modify-file true false false /DoubanAPI/bin/Newtonsoft.Json.xml
+
+_17.0.t1-1 add-dir false false false /DoubanAPI/obj
+
+_18.0.t1-1 add-dir false false false /DoubanAPI/obj/Debug
+
+_1a.0.t1-1 add-file true false false /DoubanAPI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+
+_1a.0.t1-1 modify-file true false false /DoubanAPI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+
+_1a.0.t1-1 modify-file false true false /DoubanAPI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+
+_1d.0.t1-1 add-file true false false /DoubanAPI/obj/Debug/DoubanAPI.csproj.FileListAbsolute.txt
+
+_1d.0.t1-1 modify-file true false false /DoubanAPI/obj/Debug/DoubanAPI.csproj.FileListAbsolute.txt
+
+_1f.0.t1-1 add-file true false false /DoubanAPI/obj/Debug/DoubanAPI.csprojResolveAssemblyReference.cache
+
+_1f.0.t1-1 modify-file true false false /DoubanAPI/obj/Debug/DoubanAPI.csprojResolveAssemblyReference.cache
+
+_1f.0.t1-1 modify-file false true false /DoubanAPI/obj/Debug/DoubanAPI.csprojResolveAssemblyReference.cache
+
+_1h.0.t1-1 add-file true false false /DoubanAPI/obj/Debug/DoubanAPI.dll
+
+_1h.0.t1-1 modify-file true false false /DoubanAPI/obj/Debug/DoubanAPI.dll
+
+_1h.0.t1-1 modify-file false true false /DoubanAPI/obj/Debug/DoubanAPI.dll
+
+_1j.0.t1-1 add-file true false false /DoubanAPI/obj/Debug/DoubanAPI.pdb
+
+_1j.0.t1-1 modify-file true false false /DoubanAPI/obj/Debug/DoubanAPI.pdb
+
+_1j.0.t1-1 modify-file false true false /DoubanAPI/obj/Debug/DoubanAPI.pdb
+
+_1l.0.t1-1 add-dir false false false /DoubanAPI/obj/Debug/TempPE
+
+_1m.0.t1-1 add-file true false false /DoubanAPI/packages.config
+
+_1m.0.t1-1 modify-file true false false /DoubanAPI/packages.config
+
+_1o.0.t1-1 add-dir false false false /DoubanAPI/trunk
+
+_1p.0.t1-1 add-file true false false /DoubanAPI.sln
+
+_1p.0.t1-1 modify-file true false false /DoubanAPI.sln
+
+_1r.0.t1-1 add-file true false false /README.txt
+
+_1r.0.t1-1 modify-file true false false /README.txt
+
+_1t.0.t1-1 add-dir false false false /conf
+
+_1u.0.t1-1 add-file true false false /conf/VisualSVN-SvnAuthz.ini
+
+_1u.0.t1-1 modify-file true false false /conf/VisualSVN-SvnAuthz.ini
+
+_1x.0.t1-1 add-file true false false /conf/VisualSVN-WinAuthz.ini
+
+_1x.0.t1-1 modify-file true false false /conf/VisualSVN-WinAuthz.ini
+
+_1z.0.t1-1 add-file true false false /conf/VisualSVN.lck
+
+_1z.0.t1-1 modify-file true false false /conf/VisualSVN.lck
+
+_21.0.t1-1 add-file true false false /conf/authz
+
+_21.0.t1-1 modify-file true false false /conf/authz
+
+_23.0.t1-1 add-file true false false /conf/hooks-env.tmpl
+
+_23.0.t1-1 modify-file true false false /conf/hooks-env.tmpl
+
+_25.0.t1-1 add-file true false false /conf/passwd
+
+_25.0.t1-1 modify-file true false false /conf/passwd
+
+_27.0.t1-1 add-file true false false /conf/svnserve.conf
+
+_27.0.t1-1 modify-file true false false /conf/svnserve.conf
+
+_29.0.t1-1 add-dir false false false /db
+
+_2a.0.t1-1 add-file true false false /db/current
+
+_2a.0.t1-1 modify-file true false false /db/current
+
+_2d.0.t1-1 add-file true false false /db/format
+
+_2d.0.t1-1 modify-file true false false /db/format
+
+_2f.0.t1-1 add-file true false false /db/fs-type
+
+_2f.0.t1-1 modify-file true false false /db/fs-type
+
+_2h.0.t1-1 add-file true false false /db/fsfs.conf
+
+_2h.0.t1-1 modify-file true false false /db/fsfs.conf
+
+_2j.0.t1-1 add-file true false false /db/min-unpacked-rev
+
+_2j.0.t1-1 modify-file true false false /db/min-unpacked-rev
+
+_2l.0.t1-1 add-file true false false /db/rep-cache.db
+
+_2l.0.t1-1 modify-file true false false /db/rep-cache.db
+
+_2l.0.t1-1 modify-file false true false /db/rep-cache.db
+
+_2n.0.t1-1 add-file true false false /db/rep-cache.db-journal
+
+_2n.0.t1-1 modify-file true false false /db/rep-cache.db-journal
+
+_2p.0.t1-1 add-dir false false false /db/revprops
+
+_2q.0.t1-1 add-dir false false false /db/revprops/0
+
+_2s.0.t1-1 add-file true false false /db/revprops/0/0
+
+_2s.0.t1-1 modify-file true false false /db/revprops/0/0
+
+_2v.0.t1-1 add-file true false false /db/revprops/0/1
+
+_2v.0.t1-1 modify-file true false false /db/revprops/0/1
+
+_2x.0.t1-1 add-dir false false false /db/revs
+
+_2y.0.t1-1 add-dir false false false /db/revs/0
+
+_30.0.t1-1 add-file true false false /db/revs/0/0
+
+_30.0.t1-1 modify-file true false false /db/revs/0/0
+
+_33.0.t1-1 add-file true false false /db/revs/0/1
+
+_33.0.t1-1 modify-file true false false /db/revs/0/1
+
+_35.0.t1-1 add-dir false false false /db/transactions
+
+_36.0.t1-1 add-dir false false false /db/transactions/1-1.txn
+
+_38.0.t1-1 add-file true false false /db/transactions/1-1.txn/069f9a6123369cd2d9fd4849a6af679128893b30
+
+_38.0.t1-1 modify-file true false false /db/transactions/1-1.txn/069f9a6123369cd2d9fd4849a6af679128893b30
+
+_3b.0.t1-1 add-file true false false /db/transactions/1-1.txn/09d2af8dd22201dd8d48e5dcfcaed281ff9422c7
+
+_3b.0.t1-1 modify-file true false false /db/transactions/1-1.txn/09d2af8dd22201dd8d48e5dcfcaed281ff9422c7
+
+_3d.0.t1-1 add-file true false false /db/transactions/1-1.txn/119653315470ce8a33dd7bd3ae767d6c0c664e6c
+
+_3d.0.t1-1 modify-file true false false /db/transactions/1-1.txn/119653315470ce8a33dd7bd3ae767d6c0c664e6c
+
+_3f.0.t1-1 add-file true false false /db/transactions/1-1.txn/16caa44224edc5a68acdf6c32840fb9ac7fcf1c0
+
+_3f.0.t1-1 modify-file true false false /db/transactions/1-1.txn/16caa44224edc5a68acdf6c32840fb9ac7fcf1c0
+
+_3h.0.t1-1 add-file true false false /db/transactions/1-1.txn/19272ebe351cb42c908b360fdb5aef4f8fe0b0d5
+
+_3h.0.t1-1 modify-file true false false /db/transactions/1-1.txn/19272ebe351cb42c908b360fdb5aef4f8fe0b0d5
+
+_3j.0.t1-1 add-file true false false /db/transactions/1-1.txn/1f90a4e4b5763164cc6c45815a099ee788238f0d
+
+_3j.0.t1-1 modify-file true false false /db/transactions/1-1.txn/1f90a4e4b5763164cc6c45815a099ee788238f0d
+
+_3l.0.t1-1 add-file true false false /db/transactions/1-1.txn/332a0395d390d8fb12b18e94afebb56cb54e1245
+
+_3l.0.t1-1 modify-file true false false /db/transactions/1-1.txn/332a0395d390d8fb12b18e94afebb56cb54e1245
+
+_3n.0.t1-1 add-file true false false /db/transactions/1-1.txn/4d1b0f756066c7b8377d78b56aea939364dd52a7
+
+_3n.0.t1-1 modify-file true false false /db/transactions/1-1.txn/4d1b0f756066c7b8377d78b56aea939364dd52a7
+
+_3p.0.t1-1 add-file true false false /db/transactions/1-1.txn/4effcebdd26e5fb8f98f23e6616bd1a252cbcc18
+
+_3p.0.t1-1 modify-file true false false /db/transactions/1-1.txn/4effcebdd26e5fb8f98f23e6616bd1a252cbcc18
+
+_3r.0.t1-1 add-file true false false /db/transactions/1-1.txn/4fa85960fdb50cb84ae9e427c75d3fe32bb1c937
+
+_3r.0.t1-1 modify-file true false false /db/transactions/1-1.txn/4fa85960fdb50cb84ae9e427c75d3fe32bb1c937
+
+_3t.0.t1-1 add-file true false false /db/transactions/1-1.txn/64c5cc8206b1ab7e94f39b1f3cb1e9d7cfc3b8f5
+
+_3t.0.t1-1 modify-file true false false /db/transactions/1-1.txn/64c5cc8206b1ab7e94f39b1f3cb1e9d7cfc3b8f5
+
+_3v.0.t1-1 add-file true false false /db/transactions/1-1.txn/64cc68c33c8443fe609e083ab7a56d204855d176
+
+_3v.0.t1-1 modify-file true false false /db/transactions/1-1.txn/64cc68c33c8443fe609e083ab7a56d204855d176
+
+_3x.0.t1-1 add-file true false false /db/transactions/1-1.txn/6827d2b22cdb10a80fecd5826de3a293f952ee3f
+
+_3x.0.t1-1 modify-file true false false /db/transactions/1-1.txn/6827d2b22cdb10a80fecd5826de3a293f952ee3f
+
+_3z.0.t1-1 add-file true false false /db/transactions/1-1.txn/68e779c80aa8dee57a51f6dca5149fc713461ee2
+
+_3z.0.t1-1 modify-file true false false /db/transactions/1-1.txn/68e779c80aa8dee57a51f6dca5149fc713461ee2
+
+_41.0.t1-1 add-file true false false /db/transactions/1-1.txn/6a27beb6f5c72d671c821fa02b2312a31668dca1
+
+_41.0.t1-1 modify-file true false false /db/transactions/1-1.txn/6a27beb6f5c72d671c821fa02b2312a31668dca1
+
+_43.0.t1-1 add-file true false false /db/transactions/1-1.txn/6a2e9ea328f244636a1e678c306e19c4aff6681a
+
+_43.0.t1-1 modify-file true false false /db/transactions/1-1.txn/6a2e9ea328f244636a1e678c306e19c4aff6681a
+
+_45.0.t1-1 add-file true false false /db/transactions/1-1.txn/70d832b45f96880987a07e9c6372635932c3516d
+
+_45.0.t1-1 modify-file true false false /db/transactions/1-1.txn/70d832b45f96880987a07e9c6372635932c3516d
+
+_47.0.t1-1 add-file true false false /db/transactions/1-1.txn/77be65af61e9003ada1183346d06f664e5a00eaa
+
+_47.0.t1-1 modify-file true false false /db/transactions/1-1.txn/77be65af61e9003ada1183346d06f664e5a00eaa
+
+_49.0.t1-1 add-file true false false /db/transactions/1-1.txn/784531d271624b2888dd1234f0a37e1a659178cd
+
+_49.0.t1-1 modify-file true false false /db/transactions/1-1.txn/784531d271624b2888dd1234f0a37e1a659178cd
+
+_4b.0.t1-1 add-file true false false /db/transactions/1-1.txn/85ebef0d16d1bbb449b5c3b5e85e2a33df68921a
+
+_4b.0.t1-1 modify-file true false false /db/transactions/1-1.txn/85ebef0d16d1bbb449b5c3b5e85e2a33df68921a
+
+_4d.0.t1-1 add-file true false false /db/transactions/1-1.txn/9361daae49c3dcc78a2ed27900dd3eff77f40917
+
+_4d.0.t1-1 modify-file true false false /db/transactions/1-1.txn/9361daae49c3dcc78a2ed27900dd3eff77f40917
+
+_4f.0.t1-1 add-file true false false /db/transactions/1-1.txn/9f4423425ae0b72c2a6280d8e34cb6520d9dd90a
+
+_4f.0.t1-1 modify-file true false false /db/transactions/1-1.txn/9f4423425ae0b72c2a6280d8e34cb6520d9dd90a
+
+_4h.0.t1-1 add-file true false false /db/transactions/1-1.txn/9f4827a9cb61e9117a48c7313ca447b8cbc8f336
+
+_4h.0.t1-1 modify-file true false false /db/transactions/1-1.txn/9f4827a9cb61e9117a48c7313ca447b8cbc8f336
+
+_4j.0.t1-1 add-file true false false /db/transactions/1-1.txn/b365ddd4df56871beaffc022358eb094c3d45539
+
+_4j.0.t1-1 modify-file true false false /db/transactions/1-1.txn/b365ddd4df56871beaffc022358eb094c3d45539
+
+_4l.0.t1-1 add-file true false false /db/transactions/1-1.txn/b382236911879bf9a2d381b7f9e79e39e46ad6cc
+
+_4l.0.t1-1 modify-file true false false /db/transactions/1-1.txn/b382236911879bf9a2d381b7f9e79e39e46ad6cc
+
+_4n.0.t1-1 add-file true false false /db/transactions/1-1.txn/ba4be5d22b4f8af9e7b6d448950439c931b89f26
+
+_4n.0.t1-1 modify-file true false false /db/transactions/1-1.txn/ba4be5d22b4f8af9e7b6d448950439c931b89f26
+
+_4p.0.t1-1 add-file true false false /db/transactions/1-1.txn/bb50f3e29c6f2dd99fed22c29438a1d36cb239e0
+
+_4p.0.t1-1 modify-file true false false /db/transactions/1-1.txn/bb50f3e29c6f2dd99fed22c29438a1d36cb239e0
+
+_4r.0.t1-1 add-file true false false /db/transactions/1-1.txn/bcbef731e998e80a82ea16aa3345dfae04ecc9f4
+
+_4r.0.t1-1 modify-file true false false /db/transactions/1-1.txn/bcbef731e998e80a82ea16aa3345dfae04ecc9f4
+
+_4t.0.t1-1 add-file true false false /db/transactions/1-1.txn/bfb27d2b31fb7e0b8184752782b7c9ce4377af44
+
+_4t.0.t1-1 modify-file true false false /db/transactions/1-1.txn/bfb27d2b31fb7e0b8184752782b7c9ce4377af44
+
+_4v.0.t1-1 add-file true false false /db/transactions/1-1.txn/c22b384448a639cb91691bb0949b1c29a03b1b3a
+
+_4v.0.t1-1 modify-file true false false /db/transactions/1-1.txn/c22b384448a639cb91691bb0949b1c29a03b1b3a
+
+_4x.0.t1-1 add-file true false false /db/transactions/1-1.txn/cf0cd8b5d3758a8aa47da703425385875c277959
+
+_4x.0.t1-1 modify-file true false false /db/transactions/1-1.txn/cf0cd8b5d3758a8aa47da703425385875c277959
+

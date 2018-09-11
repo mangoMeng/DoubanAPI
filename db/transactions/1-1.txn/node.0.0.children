@@ -1,0 +1,33 @@
+K 8
+branches
+V 14
+dir 2-1.0.r1/0
+K 4
+tags
+V 15
+dir 3-1.0.r1/66
+K 5
+trunk
+V 16
+dir 0-1.0.r1/129
+END
+K 9
+DoubanAPI
+V 13
+dir _0.0.t1-1
+K 13
+DoubanAPI.sln
+V 15
+file _1p.0.t1-1
+K 10
+README.txt
+V 15
+file _1r.0.t1-1
+K 4
+conf
+V 14
+dir _1t.0.t1-1
+K 2
+db
+V 14
+dir _29.0.t1-1
