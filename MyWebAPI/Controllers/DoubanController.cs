@@ -19,15 +19,17 @@ namespace MyWebAPI.Controllers
         public string Get()
         {
             string result = HttpHelper.HttpGet("http://api.douban.com/v2/movie/top250?start=35&count=25");
-            MovieList movieList = JsonConvert.DeserializeObject<MovieList>(result);
-            return JsonConvert.SerializeObject(movieList);
+            MovieList movieList = result.ToObject<MovieList>();
+            return movieList.ToJson();
         }
 
         // GET: api/Douban/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id) 
+        public string Get(int id)
         {
-            return "value";
+            string result = HttpHelper.HttpGet("https://api.douban.com/v2/movie/subject/" + id);
+            Movie movie = result.ToObject<Movie>();
+            return movie.ToJson();
         }
 
         // POST: api/Douban
