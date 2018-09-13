@@ -17,6 +17,7 @@ namespace CommonMethod
         /// <returns></returns>
         public static string HttpGet(string url, Dictionary<string, string> headers = null, int timeout = 0)
         {
+            string reuslt = "";
             using (HttpClient client = new HttpClient())
             {
                 if (headers != null)
@@ -30,8 +31,16 @@ namespace CommonMethod
                 {
                     client.Timeout = new TimeSpan(0, 0, timeout);
                 }
-                Byte[] resultBytes = client.GetByteArrayAsync(url).Result;
-                return Encoding.UTF8.GetString(resultBytes);
+                try
+                {
+                    Byte[] resultBytes = client.GetByteArrayAsync(url).Result;
+                    reuslt = Encoding.UTF8.GetString(resultBytes);
+                }
+                catch
+                {
+                    reuslt = "";
+                }
+                return reuslt;
             }
         }
 
