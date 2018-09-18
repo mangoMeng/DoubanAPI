@@ -1,0 +1,336 @@
+﻿
+@{
+    ViewBag.Title = "用户信息";
+}
+
+<h2>UserInfo</h2>
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+<br />
+<ul class="nav nav-pills nav-stacked">
+    <li role="presentation" class="active"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+<br />
+<ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Library</a></li>
+    <li class="active">Data</li>
+</ol>
+<br />
+<nav aria-label="Page navigation">
+    <ul class="pagination pagination">
+        <li>
+            <a href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li class="active"><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li>
+            <a href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<br />
+<nav aria-label="...">
+    <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
+</nav>
+<br />
+<nav aria-label="...">
+    <ul class="pager">
+        <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+        <li class="next"><a href="#">Newer <span aria-hidden="true">&rarr;</span></a></li>
+    </ul>
+</nav>
+
+<br />
+<h1>Example heading <span class="label label-danger">New</span></h1>
+<span class="label label-default">Default</span>
+<span class="label label-primary">Primary</span>
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span>
+
+<br />
+<br />
+<br />
+
+<a href="#">Inbox <span class="badge">42</span></a>
+
+<button class="btn btn-primary" type="button">
+    Messages <span class="badge">4</span>
+</button>
+<br />
+<br />
+<br />
+<ul class="nav nav-pills" role="tablist">
+    <li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+    <li role="presentation"><a href="#">Profile</a></li>
+    <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+</ul>
+
+<br />
+<div class="jumbotron">
+    <h1>Hello, world!</h1>
+    <p>
+        This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+<br />
+
+
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="~/Content/Images/171x180.svg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="~/Content/Images/171x180.svg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="~/Content/Images/171x180.svg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="~/Content/Images/171x180.svg" alt="...">
+        </a>
+    </div>
+</div>
+
+<br />
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <strong>Warning!</strong> Better check yourself, <a href="#" class="alert-link">you're not looking too good.</a>
+</div>
+<div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important.</div>
+<div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good.</div>
+<div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again.</div>
+
+<br />
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <span class="sr-only">60% Complete</span>
+    </div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        60%
+    </div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em;">
+        0%
+    </div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 2%;">
+        2%
+    </div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+        <span class="sr-only">45% Complete</span>
+    </div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-success" style="width: 35%">
+        <span class="sr-only">35% Complete (success)</span>
+    </div>
+    <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 20%">
+        <span class="sr-only">20% Complete (warning)</span>
+    </div>
+    <div class="progress-bar progress-bar-danger" style="width: 10%">
+        <span class="sr-only">10% Complete (danger)</span>
+    </div>
+</div>
+
+<br />
+<div class="media">
+    <div class="media-left media-middle">
+        <a href="#">
+            <img class="media-object" src="~/Content/Images/64x64.svg" />
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">Middle aligned media</h4>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+        Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </div>
+    <div class="media-left media-middle">
+        <a href="#">
+            <img class="media-object" src="~/Content/Images/64x64.svg" />
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">Top aligned media</h4>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+        Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </div>
+    <div class="media-left media-middle">
+        <a href="#">
+            <img class="media-object" src="~/Content/Images/64x64.svg" />
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">Bottom aligned media</h4>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+        Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </div>
+</div>
+
+<br />
+
+<ul class="media-list">
+    <li class="media">
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="~/Content/Images/64x64.svg" />
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Media heading</h4>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+        </div>
+    </li>
+    <li class="media">
+        <div class="media-left">
+            <a href="#">
+                <img class="media-object" src="~/Content/Images/64x64.svg" />
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Media heading</h4>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+        </div>
+    </li>
+</ul>
+
+<br />
+<ul class="list-group">
+    <li class="list-group-item">
+        <span class="badge">14</span>
+        Cras justo odio1
+    </li>
+    <li class="list-group-item">
+        <span class="badge">11</span>
+        Cras justo odio2
+    </li>
+    <li class="list-group-item">
+        <span class="badge">12</span>
+        Cras justo odio3
+    </li>
+</ul>
+
+<br />
+
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        Cras justo odio
+    </a>
+    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item">Morbi leo risus</a>
+    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+    <a href="#" class="list-group-item">Vestibulum at eros</a>
+</div>
+
+<br />
+<div class="list-group">
+    <button type="button" class="list-group-item active">Cras justo odio</button>
+    <button type="button" class="list-group-item disabled">Dapibus ac facilisis in</button>
+    <button type="button" class="list-group-item">Morbi leo risus</button>
+    <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+    <button type="button" class="list-group-item">Vestibulum at eros</button>
+</div>
+
+<br />
+<ul class="list-group">
+    <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+    <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+    <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+    <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+</ul>
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+    <a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
+    <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+    <a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+</div>
+
+<br />
+<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">List group item heading</h4>
+        <p class="list-group-item-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    </a>
+    <a href="#" class="list-group-item ">
+        <h4 class="list-group-item-heading">List group item heading</h4>
+        <p class="list-group-item-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    </a>
+    <a href="#" class="list-group-item ">
+        <h4 class="list-group-item-heading">List group item heading</h4>
+        <p class="list-group-item-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    </a>
+</div>
+
+<br />
+<div class="panel panel-default">
+    <div class="panel-body">
+        Basic panel example
+    </div>
+</div>
+
+<br />
+
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Panel heading</div>
+
+    <!-- Table -->
+    <table class="table">
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+        <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>mdo</td>
+        </tr>
+        <tr></tr>
+    </table>
+</div>
+
+<br />
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="http://localhost:9117/"></iframe>
+</div>
+
