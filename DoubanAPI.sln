@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubanAPI", "DoubanAPI\DoubanAPI.csproj", "{3E98D9F3-F0DB-41A7-893D-DC07E3517B69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubanMovie", "DoubanAPI\DoubanMovie.csproj", "{3E98D9F3-F0DB-41A7-893D-DC07E3517B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebAPI", "MyWebAPI\MyWebAPI.csproj", "{77626C8D-1067-40A6-81C0-4CA64F7B6CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebAPI", "MyWebAPI\MyWebAPI.csproj", "{77626C8D-1067-40A6-81C0-4CA64F7B6CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonMethod", "ClassLibrary1\CommonMethod.csproj", "{FF3173FE-260D-4219-A9A0-520423C85B7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonMethod", "ClassLibrary1\CommonMethod.csproj", "{FF3173FE-260D-4219-A9A0-520423C85B7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
