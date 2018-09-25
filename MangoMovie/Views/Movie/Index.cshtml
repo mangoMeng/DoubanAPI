@@ -64,13 +64,16 @@
 @using (Html.BeginForm("Index", "Movie", FormMethod.Post, new { id = "GetPageData" }))
 {
     <nav aria-label="Page navigation" class="text-center">
-        <input class="hidden" id="PageIndex" name="PageIndex" value="0" />
+        <input class="hidden" id="PageIndex" name="PageIndex" value=@(ViewBag.PageIndex+1) />
+        <input class="hidden" id="PageCount" value=@ViewBag.PageCount />
         <ul class="pagination pagination-sm">
+
             <li class="pagenumber_Button">
                 <a href="#" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
                 </a>
             </li>
+
             @for (int i = 0; i < ViewBag.PageCount; i++)
             {
                 if (i == ViewBag.PageIndex)
@@ -92,6 +95,12 @@
     </nav>
 }
 
+<style>
+    .disabled {
+        pointer-events: none;
+    }
+</style>
+
 <script>
 
     function submitForm(pagenumber) {
@@ -100,7 +109,29 @@
         $("#GetPageData").submit();
     }
 
+    function checkDisable() {
+
+        var pageIndex = parseInt($("#PageIndex").val());
+        var pageCount = parseInt($("#PageCount").val());
+
+        if (pageIndex == 1) {
+            $(".pagenumber_Button").eq(0).addClass("disabled");
+        }
+        else {
+            $(".pagenumber_Button").eq(0).removeClass("disabled");
+        }
+        if (pageIndex == pageCount) {
+            $(".pagenumber_Button").eq(1).addClass("disabled");
+        }
+        else {
+            $(".pagenumber_Button").eq(1).removeClass("disabled");
+        }
+    }
+
     $(function () {
+
+        checkDisable();
+
         $(".pagenumber").each(function () {
             $(this).click(function () {
                 $(this).parent().children().removeClass("active");
@@ -111,9 +142,6 @@
 
         $(".pagenumber_Button").each(function () {
             $(this).click(function () {
-                if ($(this).css() == "disabled") {
-
-                }
                 $active = $(this).parent().find(".active");
                 $active.parent().children().removeClass("active");
                 var currentIndex = parseInt($active.text());
@@ -126,6 +154,7 @@
                     $active.next().addClass("active");
                 }
                 submitForm(currentIndex);
+                checkDisable();
             });
         });
 
