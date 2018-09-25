@@ -1,0 +1,133 @@
+﻿@model IEnumerable<MangoMovie.Model.Subject>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>电影列表</h2>
+
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Top250</div>
+
+    <!-- Table -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>片名</th>
+                <th>导演</th>
+                <th>主演</th>
+                <th>年份</th>
+                <th>评分</th>
+                <th>标签</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @{
+                int id = ViewBag.PageIndex * ViewBag.PageSize + 1;
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@id</td>
+                        <td>@Html.ActionLink(string.Format("《{0}》", item.title), "Detail", new { id = item.id })</td>
+                        <td>
+                            @foreach (var director in @item.directors)
+                            {
+                                @Html.Label(director.name + ";")
+                            }
+                        </td>
+                        <td>
+                            @foreach (var cast in @item.casts)
+                            {
+                                @Html.Label(cast.name + ";")
+                            }
+                        </td>
+                        <td>@item.year</td>
+                        <td>@item.rating.average</td>
+                        <td>
+                            @foreach (var genre in @item.genres)
+                            {
+                                @Html.ActionLink(genre + ";", "Tag", new { id = genre })
+                            }
+                        </td>
+                    </tr>
+
+                    id++;
+                }
+            }
+            <tr></tr>
+        </tbody>
+    </table>
+</div>
+
+@using (Html.BeginForm("Index", "Movie", FormMethod.Post, new { id = "GetPageData" }))
+{
+    <nav aria-label="Page navigation" class="text-center">
+        <input class="hidden" id="PageIndex" name="PageIndex" value="0" />
+        <ul class="pagination pagination-sm">
+            <li class="pagenumber_Button">
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            @for (int i = 0; i < ViewBag.PageCount; i++)
+            {
+                if (i == ViewBag.PageIndex)
+                {
+                    <li class="active"><a href="#">@(i + 1)</a></li>
+                }
+                else
+                {
+                    <li class="pagenumber"><a href="#">@(i + 1 )</a></li>
+                }
+            }
+
+            <li class="pagenumber_Button">
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+}
+
+<script>
+
+    function submitForm(pagenumber) {
+        pagenumber = parseInt(pagenumber, 10);
+        $("#PageIndex").val(pagenumber - 1);
+        $("#GetPageData").submit();
+    }
+
+    $(function () {
+        $(".pagenumber").each(function () {
+            $(this).click(function () {
+                $(this).parent().children().removeClass("active");
+                $(this).addClass("active");
+                submitForm($(this).text());
+            });
+        });
+
+        $(".pagenumber_Button").each(function () {
+            $(this).click(function () {
+                if ($(this).css() == "disabled") {
+
+                }
+                $active = $(this).parent().find(".active");
+                $active.parent().children().removeClass("active");
+                var currentIndex = parseInt($active.text());
+                if ($(this).index() == 0) {
+                    currentIndex--;
+                    $active.prev().addClass("active");
+                }
+                else {
+                    currentIndex++;
+                    $active.next().addClass("active");
+                }
+                submitForm(currentIndex);
+            });
+        });
+
+    });
+</script>

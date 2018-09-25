@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using CommonMethod;
 using Newtonsoft.Json;
 using MyWebAPI.Model;
+using HttpHellper;
 
 namespace MyWebAPI.Controllers
 {
@@ -30,7 +30,7 @@ namespace MyWebAPI.Controllers
         //正在热映 example: /in_theaters?city=深圳
         private readonly string OnShowing_Url = "/in_theaters?city={0}";
         //查询限制 start:从第N条开始，count:取N条
-        private readonly string Limit_Url = "&start={0}&count={1}";
+        private readonly string Limit_Url = "start={0}&count={1}";
         #endregion
 
         #region 方法请求
@@ -44,7 +44,7 @@ namespace MyWebAPI.Controllers
         [HttpGet(Name = "MovieList")]
         public string Top250(int start = 0, int count = 20)
         {
-            string url = string.Format(CommonHead_Url + Classic_Url + Limit_Url, start, count);
+            string url = string.Format(CommonHead_Url + Classic_Url + "?" + Limit_Url, start, count);
             string result = HttpHelper.HttpGet(url);
             return result;
         }
