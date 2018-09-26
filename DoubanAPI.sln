@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebAPI", "MyWebAPI\MyWebAPI.csproj", "{77626C8D-1067-40A6-81C0-4CA64F7B6CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubanAPI_Service", "MyWebAPI\DoubanAPI_Service.csproj", "{77626C8D-1067-40A6-81C0-4CA64F7B6CCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoMovie", "MangoMovie\MangoMovie.csproj", "{C1BF6A54-40F8-4112-A9A6-7CB66BFD6E32}"
 EndProject

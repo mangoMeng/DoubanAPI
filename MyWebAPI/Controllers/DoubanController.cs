@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using MyWebAPI.Model;
 using HttpHellper;
 
-namespace MyWebAPI.Controllers
+namespace DoubanAPI_Service.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]

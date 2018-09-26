@@ -14,7 +14,7 @@ using NJsonSchema;
 using NSwag.AspNetCore;
 using System.Reflection;
 
-namespace MyWebAPI
+namespace DoubanAPI_Service
 {
     public class Startup
     {
