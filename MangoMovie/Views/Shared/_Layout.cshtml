@@ -20,13 +20,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("MangoMovie", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("MangoMovie", "Index", "Movie", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("首页", "Index", "Home")</li>
-                    <li>@Html.ActionLink("关于", "About", "Home")</li>
-                    <li>@Html.ActionLink("我的", "UserInfo", "Home")</li>
+                    <li>@Html.ActionLink("Top250", "Index", "Movie")</li>
+                    <li>@Html.ActionLink("正在上映", "OnShowing", "Movie")</li>
+                    <li>@Html.ActionLink("即将上映", "CommingSoon", "Movie")</li>
                 </ul>
             </div>
         </div>

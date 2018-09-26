@@ -106,7 +106,7 @@ namespace MyWebAPI.Controllers
         [HttpGet]
         public string OnShowing(string city = "深圳", int start = 0, int count = 10)
         {
-            string url = string.Format(CommonHead_Url + OnShowing_Url, city) + "?" + string.Format(Limit_Url, start, count);
+            string url = string.Format(CommonHead_Url + OnShowing_Url, city) + "&" + string.Format(Limit_Url, start, count);
             string result = HttpHelper.HttpGet(url);
             return result;
         }
