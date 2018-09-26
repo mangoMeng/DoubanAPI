@@ -16,7 +16,7 @@ namespace MyWebAPI.Controllers
     {
         #region 全局变量
         //Douban_Movie通用部分
-        private readonly string CommonHead_Url = "http://api.douban.com/v2/movie";
+        private readonly string CommonHead_Url = "https://api.douban.com/v2/movie";
         //Top250 example: /top250
         private readonly string Classic_Url = "/top250";
         //明细 example: /subject/1296141
@@ -70,7 +70,7 @@ namespace MyWebAPI.Controllers
         [HttpGet("{name}", Name = "GetByName")]
         public string GetByName(string name, int start = 0, int count = 10)
         {
-            string url = string.Format(CommonHead_Url + SearchName_Url, name) + string.Format(Limit_Url, start, count);
+            string url = string.Format(CommonHead_Url + SearchName_Url, name) + "&" + string.Format(Limit_Url, start, count);
             string result = HttpHelper.HttpGet(url);
             return result;
         }
@@ -84,7 +84,7 @@ namespace MyWebAPI.Controllers
         [HttpGet("{tag}", Name = "GetByTag")]
         public string GetBytag(string tag, int start = 0, int count = 10)
         {
-            string url = string.Format(CommonHead_Url + SearchTag_Url, tag) + string.Format(Limit_Url, start, count);
+            string url = string.Format(CommonHead_Url + SearchTag_Url, tag) + "&" + string.Format(Limit_Url, start, count);
             string result = HttpHelper.HttpGet(url);
             return result;
         }
@@ -95,7 +95,7 @@ namespace MyWebAPI.Controllers
         [HttpGet]
         public string CommingSoon(int start = 0, int count = 10)
         {
-            string url = string.Format(CommonHead_Url + ComingSoon_Url + Limit_Url, start, count);
+            string url = string.Format(CommonHead_Url + ComingSoon_Url + "?" + Limit_Url, start, count);
             string result = HttpHelper.HttpGet(url);
             return result;
         }
@@ -106,7 +106,7 @@ namespace MyWebAPI.Controllers
         [HttpGet]
         public string OnShowing(string city = "深圳", int start = 0, int count = 10)
         {
-            string url = string.Format(CommonHead_Url + OnShowing_Url, city) + string.Format(Limit_Url, start, count);
+            string url = string.Format(CommonHead_Url + OnShowing_Url, city) + "?" + string.Format(Limit_Url, start, count);
             string result = HttpHelper.HttpGet(url);
             return result;
         }

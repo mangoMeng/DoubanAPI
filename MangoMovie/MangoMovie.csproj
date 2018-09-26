@@ -201,6 +201,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\UserInfo.cshtml" />
     <Content Include="Views\Movie\Index.cshtml" />
+    <Content Include="Views\Movie\Detail.cshtml" />
+    <Content Include="Views\Movie\OnShowing.cshtml" />
+    <Content Include="Views\Movie\CommingSoon.cshtml" />
+    <Content Include="Views\Movie\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

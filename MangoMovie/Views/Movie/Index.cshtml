@@ -48,7 +48,7 @@
                         <td>
                             @foreach (var genre in @item.genres)
                             {
-                                @Html.ActionLink(genre + ";", "Tag", new { id = genre })
+                                @Html.ActionLink(genre + ";", "Search", new { keyWord = genre,type="tag" },new { target= "_blank" })
                             }
                         </td>
                     </tr>

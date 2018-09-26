@@ -1,0 +1,52 @@
+﻿@model MangoMovie.Model.Movie
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<div class="jumbotron">
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+                <img class="media-object" src=@Model.images.small alt="..." width="200">
+            </a>
+        </div>
+        <div class="media-body">
+            <h2 class="media-heading">@Model.title @Model.original_title <small>(@Model.year)</small></h2>
+            <h5>
+                导演：
+                @foreach (var item in @Model.directors)
+                {
+                    <span>@item.name | </span>
+                }
+            </h5>
+            <h5>
+                类型：@foreach (var item in @Model.genres)
+                {
+                    <span>@item | </span>
+                }
+            </h5>
+            <h5>
+                演员：@foreach (var item in @Model.casts)
+                {
+                    <span>@item.name | </span>
+                }
+            </h5>
+            <h5>评分：<span>@Model.rating.average</span></h5>
+            <h5>
+                国家：@foreach (var item in @Model.countries)
+                {
+                    <span>@item | </span>
+                }
+            </h5>
+            <p>
+                <a class="btn btn-info btn-lg" href="#" role="button">看过</a>
+                <a class="btn btn-primary btn-lg" href="#" role="button">想看</a>
+            </p>
+        </div>
+    </div>
+
+    <p>@Model.summary</p>
+    
+</div>
+
