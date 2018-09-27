@@ -11,7 +11,7 @@ namespace MangoMovie.Controllers
 {
     public class MovieController : Controller
     {
-        private static string url = "http://localhost:8086/api/Douban";
+        private static string url = "http://120.78.170.214:8086/api/Douban";
         private static int PAGE_SIZE = 15;
 
         // GET: Movie
